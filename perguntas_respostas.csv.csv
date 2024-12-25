@@ -1,0 +1,54 @@
+pergunta,resposta
+Qual API do Azure Cosmos DB você deve usar para uma base de dados de grafos?,Azure Cosmos DB para Apache Gremlin
+navegar por vértices (nós) e arestas (conexões) para encontrar padrões ou relacionamentos específicos.,Travessias de Grafo
+Você precisa mover a pasta compartilhada do servidor Windows para o Azure Storage. Qual tipo de Azure Storage você deve usar?,Azure File Storage
+oferece compartilhamentos de arquivos na nuvem que podem ser acessados via o protocolo SMB (Server Message Block). o mesmo protocolo usado para pastas compartilhadas no Windows.,Azure File Storage
+Tipos de armazenamento oferecidos pelo Azure,Azure Queue Storage. Blob Storage. File Storage. Table Storage. 
+linguagem de consulta e um mecanismo de travessia de grafos,Apache Gremlin
+serviço de mensagens que permite a comunicação assíncrona entre diferentes componentes de uma aplicação. Ideal para situações em que você precisa de um buffer para suavizar picos de carga,Queue Storage
+otimizado para armazenar grandes quantidades de dados não estruturados.,Blob Storage. Os dados são armazenados como blobs (Binary Large Objects)
+serviço de armazenamento NoSQL que permite o armazenamento de grandes quantidades de dados estruturados. sem a necessidade de um esquema fixo.,Azure Table Storage
+Armazenar dados de telemetria ou logs de aplicação. onde cada entrada pode ter um formato diferente.,Azure Table Storage
+Compartilhamento de arquivos em uma rede corporativa que pode ser acessado por múltiplos usuários,Azure File Storage
+Armazenar arquivos de mídia para um site ou backups de banco de dados.,Azure Blob Storage
+Processamento em lote onde tarefas são colocadas em uma fila e processadas por trabalhadores em segundo plano.,Azure Queue Storage
+Facilitando a migração de servidores de arquivos locais para a nuvem,Azure File Storage
+Qual serviço de armazenamento do Azure você deve usar para armazenar grandes volumes de dados estruturados(?) de forma econômica?,Azure Table Storage
+Qual serviço de banco de dados do Azure você deve escolher para garantir desempenho e escalabilidade. dados de clientes?,Azure SQL Database
+Permite ______ verticalmente e horizontalmente de forma fácil para atender às necessidades de desempenho e armazenamento de sua aplicação.,Escalabilidade
+Oferece _____ com backup automático e recuperação de desastres.,Alta Disponibilidade
+Suporte a sistemas de gestão empresarial. CRM. ERP e outras aplicações empresariais.,Azure SQL Database
+serviço de banco de dados relacional baseado na nuvem oferecido pela Microsoft. Ele é construído com base na tecnologia do SQL Server e proporciona a maioria das funcionalidades que você esperaria de um banco de dados SQL tradicional.,Azure SQL Database
+Vantagens do Azure SQL Database,totalmente gerenciado. escalável e altamente disponível.
+Qual serviço do Azure permite a ingestão e processamento de dados em tempo real para análise de streaming?,Azure Stream Analytics
+serviço de armazenamento de dados em nuvem oferecido pela Microsoft. projetado para armazenar e gerenciar grandes volumes de dados não estruturados e semiestruturados,Azure Data Lake Storage
+plataforma unificada para integração de dados. armazenamento de dados e análise avançada,Azure Synapse Analytics
+serviço de análise em tempo real da Microsoft que permite o processamento de grandes fluxos de dados provenientes de várias fontes. como sensores. dispositivos IoT. logs de aplicativos,Azure Stream Analytics
+permite que empresas e desenvolvedores extraiam insights valiosos de dados em movimento. permitindo decisões informadas e rápidas. otimização de operações e melhoria na experiência do cliente,Azure Stream Analytics
+modelo de dados estruturados que utiliza tabelas para organizar e armazenar informações,Dados Relacionais
+Estruturas organizadas em linhas e colunas,Tabelas
+representam instâncias individuais de uma entidade,Linhas (ou registros)
+Colunas (ou campos),representam atributos da entidade.
+Identificador único para cada registro na tabela,Chave Primária
+Utilizada para estabelecer relacionamentos entre tabelas.,Chave Estrangeira
+Processo de organização de dados para reduzir redundâncias e melhorar a integridade.,Normalização
+categoria de bancos de dados que não seguem o modelo tradicional de tabelas de dados relacionais. Eles são projetados para armazenar e recuperar grandes volumes de dados não estruturados ou semiestruturados,Dados Não Relacionais
+podem armazenar dados em formatos variados. sem a necessidade de uma estrutura rígida,bancos de dados NoSQL
+Documentos Não Relacionais,MongoDB. CouchDB
+Chave-Valor. não relacional,Redis. DynamoDB
+Colunas-Família não relacional,Apache Cassandra. HBase
+Grafos. não relacional,Neo4j. Azure Cosmos DB para Gremlin
+Processar e armazenar dados de sensores em tempo real,IoT (Internet das Coisas)
+Dados Não Relacionais,Documentos. Grafos. Colunas-Família
+Organizar dados em colunas em vez de linhas. como no Apache Cassandra,Colunas-Família: 
+Inclui Blob Storage. Table Storage. File Storage. e Queue Storage,Azure Storage: 
+Análise em Tempo Real,Azure Stream Analytics
+integração de dados que permite criar. agendar e gerenciar pipelines de dados para ETL/ELT,Azure Data Factory
+Integração com várias fontes de dados. incluindo on-premises e na nuvem,Azure Data Factory
+Integração de big data e data warehousing. Permite a ingestão. preparação. gerenciamento e análise de dados em grande escala.,Azure Databricks
+Criptografia. Controle de Acesso. Gerenciamento de Identidade,Segurança dos Dados
+Proteção dos dados enquanto eles são transmitidos entre sistemas usando protocolos seguros (TLS/SSL).,Criptografia em Trânsito
+Criptografia dos dados armazenados para proteger contra acesso não autorizado.,Criptografia em Repouso
+Gerenciamento de permissões com base nas funções do usuário. garantindo que os usuários tenham acesso apenas aos dados e recursos necessários para suas funções,Controle de Acesso Baseado em Funções (RBAC): 
+Adicionar uma camada extra de segurança ao exigir que os usuários forneçam mais de uma forma de verificação,Autenticação Multifator (MFA):
+gerenciar identidades e controlar o acesso a recursos do Azure.,Azure Active Directory (Azure AD)
